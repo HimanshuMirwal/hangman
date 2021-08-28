@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap{
+    height:auto;
+    width: 1400px;
+    margin: auto;
+    background: wheat;
+
+}
+
+#header
+{
+    height: 100px;
+    width:1400px;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    background:rgb(230, 152, 9);
+	line-height:100px;
+}
+
+
+#test
+{
+    min-height: 300px;
+    max-height: auto;
+    width: 800px;
+    background: wheat;
+    overflow:auto;
+    float: left;
+}
+
+.childDiv
+{
+    height: 60px;
+    width: 60px;
+    background: whitesmoke;
+    float: left;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color:rgb(39, 27, 27);
+}
+
+#guess {
+    height: auto;
+    width: 1400px;
+    background:wheat;
+    border: 1px solid;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    
+    
+}
+
+#alphabets
+{
+    height: 290px;
+    width: 1400px;
+    background: rgb(235, 183, 87);
+}
+
+
+#alphabets input
+{
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    margin-left: 103px;
+    margin-top: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+#refresh{
+    height: 100px;
+    width: 700px;
+    margin: auto;
+}
+
+#refresh_button{
+    height: 50px;
+    width: 120px;
+    background: blue;
+    font-size: 20px;
+    text-align: center;
+    margin-left:300px;
+    margin-top: 20px; 
+    color: whitesmoke;
+    border-radius: 10px;
+
+}
+
+#wrapper{
+    height: auto;
+    width: 1400px;
+    overflow: hidden;
+}
+#hangman{
+    height: 300px;
+    width: 600px;
+    float: right;
+       
+}
+
+#mouth{
+    height: 50px;
+    width: 50px;
+    margin-left: 284px;
+    border-radius: 100px; 
+}
+
+#chest{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 0px; 
+}
+
+#leftLeg{
+    height: 80px;
+    width: 10px;
+    margin-left: 275px;
+    border: 0px solid;
+    float: left;
+
+}
+#rightLeg{
+    height: 80px;
+    width: 10px;
+    margin-left: 30px;
+    border: 0px solid;
+    float: left;
+}
+#leftHand{
+    height: 10px;
+    width: 70px;
+    float: left;
+    margin-left:180px;
+}
+#rightHand{
+    height: 10px;
+    width: 70px;
+    border: 0px solid;
+    float: left;
+    margin-left: 25px;
+    margin-top: -100px;
+    
+}
+#rope
+{
+    height: 19px;
+    width: 10px;
+    margin-left: 303px;
+}

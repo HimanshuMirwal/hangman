@@ -1,0 +1,59 @@
+<html>
+
+<Head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="index.js"></script>
+
+</Head>
+
+<body onLoad="loadGame(),refresh_button(this)">
+
+    <div id="wrap">
+        <div id="header">
+            HANGMAN
+        </div>
+
+        <div id="wrapper">
+            <div id="test">
+
+            </div>
+
+            <!-- Parent div of hangman image. -->
+            <div id="hangman">
+                    <div style="height: 10px;width: 550px;background: black"></div>
+                    <div style="height: 291px;width: 10px;background: black;float: left;"></div>
+                    <div id="rope"></div>
+
+                    <div id="mouth"></div>
+                    <div id="leftHand"></div>
+                    <div id="chest"></div>
+                    <div id="leftLeg"></div>
+                    <div id="rightLeg"></div>
+                    <div id="rightHand"></div>
+                    <div style="height: 20px;width: 550px;background: black;float: left;margin-top: 21px ; margin-left: 0px;"></div>
+
+            </div>
+        </div>
+
+        <!-- Guess div in middle. -->
+        <div id="guess"></div>
+
+
+        <!-- Parent of alphabets button creation -->
+        <div id="alphabets" class="alphabets">
+
+
+        </div>
+
+        <!-- parent of play again module -->
+        <div id="refresh">
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
